@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+:root {
+    --primary-color: #28bf96;
+    --primary-color-dark: #209677;
+    --text-dark: #111827;
+    --text-light: #6b7280;
+    --white: #ffffff;
+  }
+  .nav__logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--primary-color);
+  }
+  nav {
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 1rem;
+  }
+  .nav__links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem; 
+  } 
+  .btn2{
+    padding: 0.5rem 3rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color:black;
+    background-color: var(--white);
+    border-color: var(--primary-color);
+    border:3px solid var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 175px;
+    margin-right: 0rem;
+  }
+  .link a {
+    text-decoration: none;
+    color: var(--text-light);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .logout{
+    text-decoration: none;
+    width:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:30.4px;
+    /* background-color: #28BF96; */
+    border-radius: 5px;
+    color: red;
+  
+  }
+  .link a:hover {
+    color: var(--primary-color);
+  }
+  .btn {
+    padding: 0.5rem 2rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .btn1{
+      padding: 0.5rem 3rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color:var(--primary-color);
+    background-color: var(--white);
+    border-color: var(--primary-color);
+    border:3px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .btn btn-primary{
+    justify-content: center;
+    align-items: center;
+  }
+  .btn:hover {
+    background-color: var(--primary-color-dark);
+  }
+.inner{
+    display: flex;
+  }
+  .outer{
+    display:flex;
+    gap: 40px;
+  }
+  .hospital{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px 100px; 
+  }
+  .td1{
+    font-weight: bold;
+  }
+  .details{
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .hospital {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next row */
+    gap: 10px; /* Adjust the gap between elements as needed */
+    align-items: center;
+    justify-content: center;
+    margin-left: 45px ;
+  }
+
+  .outer {
+    flex: 1 0 auto; /* Each item takes 30% of the container width with 10% gap */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    /* background-color: #ddd; */
+    padding: 20px;
+    text-align: center;
+  }
